@@ -1,0 +1,81 @@
+{
+  "automation_session": {
+    "name": "first_test",
+    "duration": 145,
+    "os": "android",
+    "os_version": "13.0",
+    "browser_version": "app",
+    "browser": null,
+    "device": "Google Pixel 7",
+    "status": "timeout",
+    "hashed_id": "727e095a3aa193b9284001adb6fb64556712d5a1",
+    "reason": "TIMEOUT",
+    "build_name": "browserstack-build-1",
+    "project_name": "First Java Project",
+    "build_hashed_id": "7964c50760dc8819660e863f3e614b3fb0b27cce",
+    "logs": "https://app-automate.browserstack.com/builds/7964c50760dc8819660e863f3e614b3fb0b27cce/sessions/727e095a3aa193b9284001adb6fb64556712d5a1/logs",
+    "browserstack_status": "timeout",
+    "created_at": "2026-10-05T16:37:44.000Z",
+    "browser_url": "https://app-automate.browserstack.com/builds/7964c50760dc8819660e863f3e614b3fb0b27cce/sessions/727e095a3aa193b9284001adb6fb64556712d5a1",
+    "public_url": "https://app-automate.browserstack.com/builds/7964c50760dc8819660e863f3e614b3fb0b27cce/sessions/727e095a3aa193b9284001adb6fb64556712d5a1?auth_token=63264c2a16c1e04c87db32916217ec9c70ed5932174fe55fbe69483638c01584",
+    "video_url": "https://app-automate.browserstack.com/sessions/727e095a3aa193b9284001adb6fb64556712d5a1/video?token=ejY5TlZTdkhDM2xXajQ4SytyeHlhVXJtUWdCQUVHczc1RGJDVmM4akhEb2ZWQ1pMSndhR2NPeVJScG1hOHk4QWJuem9yQnN0STYyYlltWWZkaG0reVE9PS0tTjU2czE1NlNZaUphSGs4clVlejJPZz09--bbf7f4582a1ac1d472bd83fb3eea1141dbab7b95\u0026source=rest_api\u0026diff=314.089464474",
+    "appium_logs_url": "https://api.browserstack.com/app-automate/builds/7964c50760dc8819660e863f3e614b3fb0b27cce/sessions/727e095a3aa193b9284001adb6fb64556712d5a1/appiumlogs",
+    "device_logs_url": "https://api.browserstack.com/app-automate/builds/7964c50760dc8819660e863f3e614b3fb0b27cce/sessions/727e095a3aa193b9284001adb6fb64556712d5a1/devicelogs",
+    "app_details": {
+      "app_url": "bs://af912a5f18cb92b0be4a6556ffe08ed135d18e6d",
+      "app_name": "org.wikipedia.alpha",
+      "app_version": "50609-alpha-2026-10-02",
+      "app_custom_id": null,
+      "uploaded_at": "2026-10-04T18:56:52.000Z",
+      "app_filename": "app-alpha-universal-release (1).apk"
+    },
+    "session_terminal_logs_url": "https://bs-selenium-logs-use.s3.us-east-1.amazonaws.com/data/7964c50760dc8819660e863f3e614b3fb0b27cce/727e095a3aa193b9284001adb6fb64556712d5a1-terminal-logs.txt?response-content-type=text%2Fplain\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2XUQHUQMEX46HTMV%2F20261005%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20261005T164523Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c0d3917f8daa7ac92ec0ae34a6014778df91b02565160cc06f26629f2e1a9a6c",
+    "build_terminal_logs_url": "https://bs-selenium-logs-use.s3.us-east-1.amazonaws.com/data/7964c50760dc8819660e863f3e614b3fb0b27cce/terminal-logs.txt?response-content-type=text%2Fplain\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2XUQHUQMEX46HTMV%2F20261005%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20261005T164523Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=07fb854d018043f65a9e77b757183c14a1f03bdbe370547b7a094f4ad1a2a415",
+    "insights": {
+      "summary": {
+        "totals": {
+          "duration": 7,
+          "browserstack_time": 7,
+          "user_time": 0,
+          "browserstack_percentage": 100,
+          "user_percentage": 0
+        },
+        "time_breakdown": {
+          "browserstack_time": {
+            "optimize_url": "https://www.browserstack.com/docs/app-automate/appium/time-performance-optimisation#components-of-browserstack-time",
+            "components": {
+              "setup": {
+                "duration": 0
+              },
+              "execution": {
+                "duration": 7,
+                "reason": "used for benchmarking by competitors"
+              }
+            }
+          },
+          "user_time": {
+            "optimize_url": "https://www.browserstack.com/docs/app-automate/appium/time-performance-optimisation#components-of-user-time",
+            "duration": 0
+          },
+          "capabilities_impact": {
+            "optimize_url": "https://www.browserstack.com/docs/app-automate/appium/time-performance-optimisation#capabilities-and-their-performance-impact",
+            "top_capabilities": [
+              {
+                "name": "defaultVideo",
+                "impact": "high"
+              },
+              {
+                "name": "appiumLogs",
+                "impact": "medium"
+              },
+              {
+                "name": "deviceLogs",
+                "impact": "medium"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
