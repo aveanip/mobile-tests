@@ -3,7 +3,7 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import drivers.BrowserstackDriver;
+import drivers.BrowserstackAndroidDriver;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
@@ -19,8 +19,11 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll(){
-        Configuration.browser = BrowserstackDriver.class.getName();
+        Configuration.browser = BrowserstackAndroidDriver.class.getName();
         Configuration.browserSize = null;
+        Configuration.screenshots = false;
+        Configuration.savePageSource = false;
+//        Configuration.pageLoadTimeout = 0;
         Configuration.timeout = 30000;
     }
 
