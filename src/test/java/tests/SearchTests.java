@@ -16,16 +16,18 @@ public class SearchTests extends TestBase {
 
     @Test
     void successfulSearchTest() {
-        $(AppiumBy.xpath("//android.widget.Button[@content-desc='Next']")).click();
-        step("Открыть поиск и ввести текст в поле ввода", () -> {
-            $(accessibilityId("Search Wikipedia")).click();
-            $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Appium");
-        });
-        step("Проверить, что появились результаты поиска", () -> {
-            $$(id("org.wikipedia.alpha:id/page_list_item_title"))
-                    .shouldHave(sizeGreaterThan(0));
-        });
-    }
+
+            step("Type search", () -> {
+                $(accessibilityId("Search Wikipedia")).click();
+                $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Appium");
+
+            });
+
+            step("Verify content found", () -> {
+                $$(id("org.wikipedia.alpha:id/page_list_item_title")).shouldHave(sizeGreaterThan(0));
+            });
+
+        }
 
 
     @Test
